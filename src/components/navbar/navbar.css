@@ -1,0 +1,25 @@
+.navbar {
+    top: 0;
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.navbar-nav {
+    display: inline-block;
+    margin: auto;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: gold;
+}
+
+.container-fluid {
+    text-align: center;
+    display: inline;
+    font-size: 30px;
+
+}

@@ -1,13 +1,43 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/navbar/navbar.js';
+import About from './components/about/about.js';
+import Rent from './components/rent/rent.js';
+import Logo from './components/logo/logo.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+    <Navbar></Navbar>
+    
+    <Logo></Logo>
+
+    <About></About>
+
+    <Rent></Rent>
+
+    </div>
+
+
+  );
+}
+
+export default App;
+
+
+/*
+
+
+<div className="App">
+      hello
+    </div>
+
+
+<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+
+          Hello World
         </p>
         <a
           className="App-link"
@@ -18,8 +48,8 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
-  );
-}
 
-export default App;
+<html> 
+
+</html>
+*/
