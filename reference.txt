@@ -1,0 +1,10 @@
+store api keys in "app-env"
+
+$ source app-env
+
+$ printenv
+
+add app-env to gitignore
+
+
+

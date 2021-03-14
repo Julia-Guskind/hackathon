@@ -4,20 +4,25 @@ import Navbar from './components/navbar/navbar.js';
 import About from './components/about/about.js';
 import Rent from './components/rent/rent.js';
 import Logo from './components/logo/logo.js';
+import BikeMap from './components/bikemap/bikemap.js';
+import FAQ from './components/FAQ/FAQ.js';
+import Foo from './components/FAQ/foo.js';
+
+
 
 function App() {
   return (
     <div>
+
     <Navbar></Navbar>
     
-    <Logo></Logo>
-
     <About></About>
+      
+    <Foo></Foo>
 
-    <Rent></Rent>
+    <BikeMap></BikeMap>
 
     </div>
-
 
   );
 }

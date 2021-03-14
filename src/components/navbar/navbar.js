@@ -8,15 +8,19 @@ class Navbar extends Component {
         return (
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <ul class="navbar-nav">
+                <a class="navbar-brand" href="/">Back to Top</a>
+                <ul class="navbar-nav">                  
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#about_link">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#rent">Rent Bike</a>
+                    <a class="nav-link" href="#bikemap">Bike Route Map</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#sustain">Sustainability</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#FAQ">FAQs</a>
                   </li>
                 </ul>
             </div>
