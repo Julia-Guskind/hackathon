@@ -7,23 +7,22 @@ import Logo from './components/logo/logo.js';
 import BikeMap from './components/bikemap/bikemap.js';
 import FAQ from './components/FAQ/FAQ.js';
 import Foo from './components/FAQ/foo.js';
-
+import Sustain from './components/sustain/sustain.js';
 
 
 function App() {
   return (
-    <div>
-
-    <Navbar></Navbar>
+<body>
+<Navbar></Navbar>
     
     <About></About>
-      
-    <Foo></Foo>
+    
+    <Sustain></Sustain>
 
     <BikeMap></BikeMap>
-
-    </div>
-
+    
+    <FAQ></FAQ>
+</body>
   );
 }
 

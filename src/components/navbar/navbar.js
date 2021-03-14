@@ -6,21 +6,17 @@ import "./navbar.css";
 class Navbar extends Component {
     render () {
         return (
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar fixed-top navbar-light" style={{backgroundColor: "#76b074"}}>
             <div class="container-fluid">
-                <a class="navbar-brand" href="/">Back to Top</a>
                 <ul class="navbar-nav">                  
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#about_link">About</a>
+                    <a class="nav-link" aria-current="page" href="#">About</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#bikemap">Bike Route Map</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#sustain">Sustainability</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#FAQ">FAQs</a>
+                    <a class="nav-link" href="#faqs">FAQs</a>
                   </li>
                 </ul>
             </div>

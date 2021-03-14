@@ -5,25 +5,26 @@ import './about.css';
 class About extends Component {
     render () {
         return (
-            <div className="about">
-                <section class="about_content"> 
-                    <h2> About: <a id="about_link"></a></h2>
-                    <p>
-                        <h4 class="paragraphs"> Who can use Husky Zoom Bikes? </h4>
-                        Anyone! UConn students with a Husky One card can directly link their card funds 
-                        (points or huskybucks) to Husky Zoom. Any resident can also put money 
-                        on a Husky Zoom card to use to lock and unlock the bike. 
-                        This card works similar to a credit card. No cash accepted, 
-                        since there is no way to track how long the bike was taken out for. 
-                        {/* <br>
-                        <br>
-                        <br>
-                        <h4 class="paragraphs"> How much are Husky Zoom bikes to use?</h4> */}
-
-                    </p>
-
-                </section>
+            <div class="card mb-3" style={{borderRadius:"25px", position:"relative", maxWidth: "1300px", height:"100%", margin:"auto"}} id="about">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="bike.jpeg" style={{width:"100%", borderRadius:"25px 0px 0px 25px"}} alt="..."/>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">What is Husky Zoom?</h5>
+                  <p class="card-text">
+                  Husky Zoom is a local bike sharing service for UConn, Storrs, and the surrounding community. 
+                  It provides easy access for students, professors, and residents to travel around the area. 
+                  Stations, or docks, are spaced out from off campus apartments in Willington to East Brook Mall in Mansfield. 
+                  Many stations are on the UConn campus to allow easy travel across campus for students! 
+                  Students can quickly access Storrs center, their friends or homes off campus, and local businesses and restaurants.
+                  </p>
+                  <p class="card-text"><small class="text-muted">Image Source: https://uconnoep.files.wordpress.com/2015/11/bike-rack.jpg?w=688&h=516</small></p>
+                </div>
+              </div>
             </div>
+          </div>
         )
     }
 }

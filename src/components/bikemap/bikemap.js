@@ -52,8 +52,125 @@ var positions = [
         desc: "1 Dock, 8 Bikes"
     },
     {
-
-    }
+        title: "Busby",
+        position: {lat: 41.81457043835727, lng: -72.26209880238952},
+        desc: "2 Docks, 8 Bikes"
+        },
+        {
+        title: "The Oaks",
+        position: {lat: 41.8038028178607, lng: -72.24308603361301},
+        desc: "2 Docks, 4 Bikes"
+        },
+        {
+        title: "East Campus",
+        position: {lat: 41.80979525995882, lng: -72.24828689273855},
+        desc: "2 Docks, 6 Bikes"
+        },
+        {
+        title: "Chemistry Building",
+        position: {lat: 41.81099666072222, lng: -72.25433211020145},
+        desc: "2 Docks, 4 Bikes"
+        },
+        {
+        title: "Horsebarn Hill",
+        position: {lat: 41.818938092559556, lng: -72.25153414046248},
+        desc: "1 Dock, 4 Bikes"
+        },
+        {
+        title: "Library",
+        position: {lat: 41.80712916509976, lng: -72.25211702044733},
+        desc: "2 Docks, 4 Bikes"
+        },
+        {
+        title: "Pharmacy Building",
+        position: {lat: 41.80960912113906, lng: -72.25511473661709},
+        desc: "1 Dock, 4 Bikes"
+        },
+        {
+        title: "Visitor's Center",
+        position: {lat: 41.80923877349376, lng: -72.259449230799},
+        desc: "1 Dock, 6 Bikes"
+        },
+        {
+        title: "Northwest",
+        position: {lat: 41.81026547847618, lng: -72.25786561170207},
+        desc: "4 Docks, 6 Bikes"
+        },
+        {
+        title: "North",
+        position: {lat: 41.81067512708672, lng: -72.25684765207649},
+        desc: "4 Docks, 6 Bikes"
+        },
+        {
+        title: "North Garage",
+        position: {lat: 41.80874081049513, lng: -72.2577139427082},
+        desc: "1 Dock, 4 Bikes"
+        },
+        {
+        title: "South Garage",
+        position: {lat: 41.80473585177548, lng: -72.2539106706296},
+        desc: "1 Dock, 4 Bikes"
+        },
+        {
+        title: "Werth",
+        position: {lat: 41.80572609793178, lng: -72.25788381875874},
+        desc: "2 Docks, 8 Bikes"
+        },
+        {
+        title: "Towers",
+        position: {lat: 41.81312241210706, lng: -72.25368832932693},
+        desc: "4 Docks, 6 Bikes"
+        },
+        {
+        title: "South",
+        position: {lat: 41.8041086583651, lng: -72.24818415842763},
+        desc: "4 Docks, 6 Bikes"
+        },
+        {
+        title: "West",
+        position: {lat: 41.80453084255839, lng: -72.25155161974885},
+        desc: "4 Docks, 6 Bikes"
+        },
+        {
+        title: "Great Lawn Area",
+        position: {lat: 41.80747966542036, lng: -72.25449264393195},
+        desc: "4 Docks, 2 Bikes"
+        },
+        {
+        title: "Wilbur Cross",
+        position: {lat: 41.80898524282561, lng: -72.25237774213352},
+        desc: "1 Dock, 4 Bikes"
+        },
+        {
+        title: "Rec Center",
+        position: {lat: 41.80511140018628, lng: -72.25314019344005},
+        desc: "2 Docks, 6 Bikes"
+        },
+        {
+        title: "McMahon",
+        position: {lat: 41.80387061440264, lng: -72.25236953045244},
+        desc: "2 Docks, 8 Bikes"
+        },
+        {
+        title: "Hilltop",
+        position: {lat: 41.802960962235545, lng: -72.25927777660374},
+        desc: "2 Docks, 8 Bikes"
+        },
+        {
+        title: "Garrigus",
+        position: {lat: 41.805159955472334, lng: -72.25806228090204},
+        desc: "1 Dock, 10 Bikes"
+        },
+        {
+        title: "Monteith",
+        position: {lat: 41.80693903507954, lng: -72.24951619967361},
+        desc: "1 Dock, 4 Bikes"
+        },
+        {
+        title: "Charter Oaks",
+        position: {lat: 41.816389222819176, lng: -72.2635228252054},
+        desc: "4 Docks, 8 Bikes"
+        }
 
 ]
 
@@ -85,6 +202,8 @@ export class BikeMap extends Component {
 
     render () {
         return (
+            <div> 
+                <div className="label">Bike Map</div>
             <div id="bikemap">
                 <Map   
                     google={this.props.google}
@@ -95,7 +214,14 @@ export class BikeMap extends Component {
                         }
                         
                     }
-                    style={{padding: "10px", margin:"auto", width:"75%", height:"85%"}}
+                    style={{position:"relative", 
+                            borderStyle: "solid",
+                            borderColor: "green",
+                            borderWidth: "5px",
+                            borderRadius: "25px",
+                            margin:"auto", 
+                            width:"75%", 
+                            height:"80%"}}
                     zoom = {16}
                     draggable={false}
                 > 
@@ -118,6 +244,7 @@ export class BikeMap extends Component {
                 </InfoWindow>
                 
                 </Map>
+            </div>
             </div>
         )
     }
