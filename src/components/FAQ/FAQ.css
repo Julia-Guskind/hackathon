@@ -8,8 +8,8 @@
 .accordion {
     margin: auto;
     width: 75%;
-    position: relative;
-    padding-top: 50%;
+    padding-top: 1000px;
+    display: block;
 }
 
 .btn {

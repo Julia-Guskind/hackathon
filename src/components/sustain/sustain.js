@@ -5,7 +5,7 @@ import './sustain.css';
 class Sustain extends Component {
     render () {
         return (
-            <div class="card mb-3" style={{borderRadius:"25px", position:"relative", maxWidth: "1300px", height:"100%", margin:"auto"}} id="sus">
+            <div class="card mb-3" style={{borderRadius:"25px", position:"relative", maxWidth: "1300px", margin:"auto"}} id="sus">
                 <div class="row g-0">
                 <div class="col-md-8">
                     <div class="card-body">

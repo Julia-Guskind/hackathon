@@ -202,7 +202,7 @@ export class BikeMap extends Component {
 
     render () {
         return (
-            <div> 
+            <div>
                 <div className="label">Bike Map</div>
             <div id="bikemap">
                 <Map   
@@ -292,3 +292,7 @@ junk = () => {
 
         return bounds
     }*/
+
+    /*
+    <div> 
+                <div className="label">Bike Map</div>*/

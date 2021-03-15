@@ -13,7 +13,7 @@ import Sustain from './components/sustain/sustain.js';
 function App() {
   return (
 <body>
-<Navbar></Navbar>
+  <Navbar></Navbar>
     
     <About></About>
     
